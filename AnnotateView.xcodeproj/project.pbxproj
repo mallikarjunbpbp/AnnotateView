@@ -12,6 +12,8 @@
 		06501F141E466E0700FFE4BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06501F121E466E0700FFE4BB /* Main.storyboard */; };
 		06501F161E466E0700FFE4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06501F151E466E0700FFE4BB /* Assets.xcassets */; };
 		06501F191E466E0700FFE4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06501F171E466E0700FFE4BB /* LaunchScreen.storyboard */; };
+		06501F231E467D1700FFE4BB /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06501F221E467D1700FFE4BB /* DrawView.swift */; };
+		1A982496AEBB35D3AF5A18AE /* Pods_AnnotateView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58C677B996E0F1CFF36AD1 /* Pods_AnnotateView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		06501F151E466E0700FFE4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06501F181E466E0700FFE4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06501F1A1E466E0700FFE4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06501F221E467D1700FFE4BB /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		546BA764B9487EEFD9243D5D /* Pods-AnnotateView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnnotateView.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnnotateView/Pods-AnnotateView.release.xcconfig"; sourceTree = "<group>"; };
+		BA58C677B996E0F1CFF36AD1 /* Pods_AnnotateView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnnotateView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4315B8DB1B4F6687FBC7E14 /* Pods-AnnotateView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnnotateView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnnotateView/Pods-AnnotateView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A982496AEBB35D3AF5A18AE /* Pods_AnnotateView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				06501F0D1E466E0700FFE4BB /* AnnotateView */,
 				06501F0C1E466E0700FFE4BB /* Products */,
+				451408C8141B0889AE6D1623 /* Pods */,
+				637733064B91AC9301782DEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				06501F151E466E0700FFE4BB /* Assets.xcassets */,
 				06501F171E466E0700FFE4BB /* LaunchScreen.storyboard */,
 				06501F1A1E466E0700FFE4BB /* Info.plist */,
+				06501F221E467D1700FFE4BB /* DrawView.swift */,
 			);
 			path = AnnotateView;
+			sourceTree = "<group>";
+		};
+		451408C8141B0889AE6D1623 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4315B8DB1B4F6687FBC7E14 /* Pods-AnnotateView.debug.xcconfig */,
+				546BA764B9487EEFD9243D5D /* Pods-AnnotateView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		637733064B91AC9301782DEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA58C677B996E0F1CFF36AD1 /* Pods_AnnotateView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06501F1D1E466E0700FFE4BB /* Build configuration list for PBXNativeTarget "AnnotateView" */;
 			buildPhases = (
+				0EE4ABAB9C77B52159D98F59 /* [CP] Check Pods Manifest.lock */,
 				06501F071E466E0700FFE4BB /* Sources */,
 				06501F081E466E0700FFE4BB /* Frameworks */,
 				06501F091E466E0700FFE4BB /* Resources */,
+				503BBD003F840B8FF3791B98 /* [CP] Embed Pods Frameworks */,
+				907DC47A9F81046ECB22952E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EE4ABAB9C77B52159D98F59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		503BBD003F840B8FF3791B98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnnotateView/Pods-AnnotateView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907DC47A9F81046ECB22952E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnnotateView/Pods-AnnotateView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06501F071E466E0700FFE4BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +217,7 @@
 			files = (
 				06501F111E466E0700FFE4BB /* ViewController.swift in Sources */,
 				06501F0F1E466E0700FFE4BB /* AppDelegate.swift in Sources */,
+				06501F231E467D1700FFE4BB /* DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +336,7 @@
 		};
 		06501F1E1E466E0700FFE4BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4315B8DB1B4F6687FBC7E14 /* Pods-AnnotateView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7BTRZL85GG;
@@ -270,6 +350,7 @@
 		};
 		06501F1F1E466E0700FFE4BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546BA764B9487EEFD9243D5D /* Pods-AnnotateView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7BTRZL85GG;
@@ -300,6 +381,7 @@
 				06501F1F1E466E0700FFE4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

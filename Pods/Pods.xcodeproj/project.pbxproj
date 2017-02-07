@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4305447CFE86111D1CDCB2C2BEF0DF5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */; };
+		48F34EBC25C2B04DE31F128421D51CDE /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52AF90424FABA7CFB670BB93827FA6 /* ColorSlider.swift */; };
+		57063A6352A9F6A09ECE9BF95EBA9BEE /* Pods-AnnotateView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D11EF25BF9117B65BA1C1E6B379DD852 /* Pods-AnnotateView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78924713CEBF4593D6C5823A00C5C3D9 /* ColorSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E2507185146EBB80F131EE518B327 /* ColorSlider-dummy.m */; };
+		93DACE51D792F1585C20F711D26FE357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		A82690A391F06FA929F3C84E42173B26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */; };
+		ACF7F7FA080A12C6ACED6C94234024D9 /* Pods-AnnotateView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F4FC1194B74CEC1CAD731D917A6B8 /* Pods-AnnotateView-dummy.m */; };
+		F8078909ECBAAA4E490AF48459F718CA /* ColorSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F12691A192622FE82BE34CF37384A64C /* ColorSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB399AD6A74C942D893EF8C6E2F4BA0E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */; };
+		FEFF2D1CB9E92AF27386F20889DAA9A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDEB98F2950DCAAC602BE74EE55234A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E02811D38DDC7B2689749EE28E746BAF;
+			remoteInfo = ColorSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033311ECE959E1D5FB1E8B315F31CF00 /* ColorSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColorSlider.framework; path = ColorSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		048F4FC1194B74CEC1CAD731D917A6B8 /* Pods-AnnotateView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnnotateView-dummy.m"; sourceTree = "<group>"; };
+		0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3DF2E160155D32828AEC751502770058 /* Pods-AnnotateView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AnnotateView.modulemap"; sourceTree = "<group>"; };
+		4DB2CC5D57EE078DE683BB9B99FCE1D7 /* Pods-AnnotateView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnnotateView-resources.sh"; sourceTree = "<group>"; };
+		503085988792FFD0FB6F32D991FFE5D1 /* Pods_AnnotateView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnnotateView.framework; path = "Pods-AnnotateView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		597C44B5A84D72A1A8B38EB53973553B /* ColorSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorSlider-prefix.pch"; sourceTree = "<group>"; };
+		6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6DC6D74F64D74393E0214DC88E4F938F /* Pods-AnnotateView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnnotateView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7362CEBD57666C025D36BED49D4D48CD /* Pods-AnnotateView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnnotateView.release.xcconfig"; sourceTree = "<group>"; };
+		838DA2DEEE24D6B6D81D6EC20EA57069 /* ColorSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorSlider.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A52AF90424FABA7CFB670BB93827FA6 /* ColorSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSlider.swift; path = Sources/ColorSlider.swift; sourceTree = "<group>"; };
+		A13D6E1BDCCDD9F08C428A6C48F23648 /* Pods-AnnotateView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnnotateView.debug.xcconfig"; sourceTree = "<group>"; };
+		B7D06E6765D48BBCEBF12636564E08F8 /* Pods-AnnotateView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnnotateView-acknowledgements.plist"; sourceTree = "<group>"; };
+		BEE4FBAC8A4F884D9BF583C10A1822B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0AF551C0CF003AAB09EAEAC487DD406 /* Pods-AnnotateView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnnotateView-frameworks.sh"; sourceTree = "<group>"; };
+		D11EF25BF9117B65BA1C1E6B379DD852 /* Pods-AnnotateView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnnotateView-umbrella.h"; sourceTree = "<group>"; };
+		DC1E2507185146EBB80F131EE518B327 /* ColorSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorSlider-dummy.m"; sourceTree = "<group>"; };
+		E82085D2AF520B4E5EE24A0CB16005D0 /* ColorSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ColorSlider.modulemap; sourceTree = "<group>"; };
+		EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F12691A192622FE82BE34CF37384A64C /* ColorSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorSlider-umbrella.h"; sourceTree = "<group>"; };
+		FDB750D07F4BA5894E372EB23160CEE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C79B7620842309CCCAEB7FD68A4DBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFF2D1CB9E92AF27386F20889DAA9A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A140F63199004823BD2A8C9379DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4305447CFE86111D1CDCB2C2BEF0DF5E /* CoreGraphics.framework in Frameworks */,
+				93DACE51D792F1585C20F711D26FE357 /* Foundation.framework in Frameworks */,
+				FB399AD6A74C942D893EF8C6E2F4BA0E /* QuartzCore.framework in Frameworks */,
+				A82690A391F06FA929F3C84E42173B26 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F44E98B5B27F26D2F49C619DA3F40E3 /* Pods-AnnotateView */ = {
+			isa = PBXGroup;
+			children = (
+				FDB750D07F4BA5894E372EB23160CEE4 /* Info.plist */,
+				3DF2E160155D32828AEC751502770058 /* Pods-AnnotateView.modulemap */,
+				6DC6D74F64D74393E0214DC88E4F938F /* Pods-AnnotateView-acknowledgements.markdown */,
+				B7D06E6765D48BBCEBF12636564E08F8 /* Pods-AnnotateView-acknowledgements.plist */,
+				048F4FC1194B74CEC1CAD731D917A6B8 /* Pods-AnnotateView-dummy.m */,
+				D0AF551C0CF003AAB09EAEAC487DD406 /* Pods-AnnotateView-frameworks.sh */,
+				4DB2CC5D57EE078DE683BB9B99FCE1D7 /* Pods-AnnotateView-resources.sh */,
+				D11EF25BF9117B65BA1C1E6B379DD852 /* Pods-AnnotateView-umbrella.h */,
+				A13D6E1BDCCDD9F08C428A6C48F23648 /* Pods-AnnotateView.debug.xcconfig */,
+				7362CEBD57666C025D36BED49D4D48CD /* Pods-AnnotateView.release.xcconfig */,
+			);
+			name = "Pods-AnnotateView";
+			path = "Target Support Files/Pods-AnnotateView";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2691F93227E549B2A03FB9E6D0C3C623 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2691F93227E549B2A03FB9E6D0C3C623 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */,
+				6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */,
+				51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */,
+				EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		409B9FDE5A5C8F17F2DEEBF485884F5B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F44E98B5B27F26D2F49C619DA3F40E3 /* Pods-AnnotateView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6FF8FB99B6F99D7370FF0C31F5DD2BD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E82085D2AF520B4E5EE24A0CB16005D0 /* ColorSlider.modulemap */,
+				838DA2DEEE24D6B6D81D6EC20EA57069 /* ColorSlider.xcconfig */,
+				DC1E2507185146EBB80F131EE518B327 /* ColorSlider-dummy.m */,
+				597C44B5A84D72A1A8B38EB53973553B /* ColorSlider-prefix.pch */,
+				F12691A192622FE82BE34CF37384A64C /* ColorSlider-umbrella.h */,
+				BEE4FBAC8A4F884D9BF583C10A1822B7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ColorSlider";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				8548036EFD31360557F0077868A1E49E /* Pods */,
+				BA9BB95B9D4340F50A33C83B9EB1261D /* Products */,
+				409B9FDE5A5C8F17F2DEEBF485884F5B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8548036EFD31360557F0077868A1E49E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF06B30DA98C2B2A0A61A1DAD3715554 /* ColorSlider */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA9BB95B9D4340F50A33C83B9EB1261D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033311ECE959E1D5FB1E8B315F31CF00 /* ColorSlider.framework */,
+				503085988792FFD0FB6F32D991FFE5D1 /* Pods_AnnotateView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF06B30DA98C2B2A0A61A1DAD3715554 /* ColorSlider */ = {
+			isa = PBXGroup;
+			children = (
+				9A52AF90424FABA7CFB670BB93827FA6 /* ColorSlider.swift */,
+				6FF8FB99B6F99D7370FF0C31F5DD2BD9 /* Support Files */,
+			);
+			name = ColorSlider;
+			path = ColorSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BF3585E78FBFFA86DBD4210876C2846E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8078909ECBAAA4E490AF48459F718CA /* ColorSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78964205A04D3F472FB0562AE8927C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57063A6352A9F6A09ECE9BF95EBA9BEE /* Pods-AnnotateView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FD839EF3A5567C620BCBA9EFB8AE263 /* Pods-AnnotateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193D45D347549223FF77A955F27CE5B7 /* Build configuration list for PBXNativeTarget "Pods-AnnotateView" */;
+			buildPhases = (
+				0751FCBADEDEC176263C25C2021BFFF2 /* Sources */,
+				8C79B7620842309CCCAEB7FD68A4DBAC /* Frameworks */,
+				C78964205A04D3F472FB0562AE8927C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB5E26AD4AA4D5E73A5FFB9FD7AAF00 /* PBXTargetDependency */,
+			);
+			name = "Pods-AnnotateView";
+			productName = "Pods-AnnotateView";
+			productReference = 503085988792FFD0FB6F32D991FFE5D1 /* Pods_AnnotateView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E02811D38DDC7B2689749EE28E746BAF /* ColorSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720F8ACAC3A9AE61BCE7B36071F373DD /* Build configuration list for PBXNativeTarget "ColorSlider" */;
+			buildPhases = (
+				F09912AB19B3F560AD922EA523BC043D /* Sources */,
+				C07A140F63199004823BD2A8C9379DFB /* Frameworks */,
+				BF3585E78FBFFA86DBD4210876C2846E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorSlider;
+			productName = ColorSlider;
+			productReference = 033311ECE959E1D5FB1E8B315F31CF00 /* ColorSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BA9BB95B9D4340F50A33C83B9EB1261D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E02811D38DDC7B2689749EE28E746BAF /* ColorSlider */,
+				7FD839EF3A5567C620BCBA9EFB8AE263 /* Pods-AnnotateView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0751FCBADEDEC176263C25C2021BFFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF7F7FA080A12C6ACED6C94234024D9 /* Pods-AnnotateView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09912AB19B3F560AD922EA523BC043D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78924713CEBF4593D6C5823A00C5C3D9 /* ColorSlider-dummy.m in Sources */,
+				48F34EBC25C2B04DE31F128421D51CDE /* ColorSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB5E26AD4AA4D5E73A5FFB9FD7AAF00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ColorSlider;
+			target = E02811D38DDC7B2689749EE28E746BAF /* ColorSlider */;
+			targetProxy = EDEB98F2950DCAAC602BE74EE55234A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		818E00ADE4B36D439B22EA426285C496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838DA2DEEE24D6B6D81D6EC20EA57069 /* ColorSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorSlider/ColorSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorSlider/ColorSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ColorSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B51D3CAD69BB9E754D8DAD6F0E795407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7362CEBD57666C025D36BED49D4D48CD /* Pods-AnnotateView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AnnotateView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnnotateView/Pods-AnnotateView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AnnotateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4EF1DD691A53FDF615B0C40CCBF999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13D6E1BDCCDD9F08C428A6C48F23648 /* Pods-AnnotateView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AnnotateView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnnotateView/Pods-AnnotateView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AnnotateView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD18468A5B6A29BB1365580FAA34576D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838DA2DEEE24D6B6D81D6EC20EA57069 /* ColorSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorSlider/ColorSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorSlider/ColorSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ColorSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		193D45D347549223FF77A955F27CE5B7 /* Build configuration list for PBXNativeTarget "Pods-AnnotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4EF1DD691A53FDF615B0C40CCBF999 /* Debug */,
+				B51D3CAD69BB9E754D8DAD6F0E795407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720F8ACAC3A9AE61BCE7B36071F373DD /* Build configuration list for PBXNativeTarget "ColorSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD18468A5B6A29BB1365580FAA34576D /* Debug */,
+				818E00ADE4B36D439B22EA426285C496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
